@@ -1,0 +1,13 @@
+{
+  "version": "4.0.3",
+  "verification_date_kst": "2026-10-15",
+  "archive_sha256": "fe588db2c2fce73b807bf7dbdc528f8596c01eba7b8325af4e2cbb5c40aa125a",
+  "checks": [
+    "ZIP CRC and every manifest file hash PASS",
+    "112 server tests PASS",
+    "read-only Korean-path source relocation, actual login/business save and original DB preservation PASS",
+    "actual private-interface HTTPS/login/trust rejection/saved-settings restart PASS"
+  ],
+  "limitations": "Linux execution; native Windows/Defender/OneDrive/CSP/firewall/customer network not executed",
+  "temporary_test_data_removed": true
+}
