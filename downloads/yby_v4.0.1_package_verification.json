@@ -1,0 +1,13 @@
+{
+  "version": "4.0.1",
+  "verification_date": "2026-10-15",
+  "archive_sha256": "32bdda63a49f6b51c709616891fbaf93f37aa5d805b557ec9201d85f17a6ddd1",
+  "checks": [
+    "ZIP CRC and every manifest file hash PASS",
+    "Fresh extraction + ordinary Python startup + first-password policy + real login/rent/atomic return/expense + full backup + CLI verify PASS",
+    "Exact-server stop + same-port restart + password and business data persistence PASS",
+    "Final ZIP: 95 server tests executed, 95 passed, underlying exit status 0",
+    "Final ZIP: real private-interface HTTPS startup, trusted/untrusted certificate checks, login, diagnostics, saved-settings restart and certificate/password persistence PASS"
+  ],
+  "temporary_business_data_removed": true
+}
