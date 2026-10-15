@@ -1,0 +1,13 @@
+{
+  "date_kst": "2026-10-15",
+  "archive_sha256": "61afee406ba909ad19e5747cccfa3cad766e96ad2659bfb0d01d81aa2c8b9f4a",
+  "bytes": 5406,
+  "checks": [
+    "PowerShell syntax grammar parse PASS",
+    "Read-only Python/SSL verifier success and all certificate bytes preserved PASS",
+    "Missing private key rejected without false PASS",
+    "Fixed certificate filenames, original user/profile validation, no recursive ownership and normal-token verification guards reviewed",
+    "ZIP CRC and exact four-file contents PASS"
+  ],
+  "limitations": "Linux verification only; native Windows UAC/takeown/icacls execution is performed on the user PC and not claimed as tested in this cloud."
+}
