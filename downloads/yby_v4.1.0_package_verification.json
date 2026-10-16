@@ -1,0 +1,57 @@
+{
+  "version": "4.1.0",
+  "verification_date_kst": "2026-10-16",
+  "archive_sha256": "ed25269090fd74688c8ff08443b8382e80c8e70eee5d2540a66cc7c84213b3e1",
+  "archive_bytes": 687621,
+  "checks": [
+    {
+      "name": "ZIP CRC, path safety, no customer data/keys/logs and every manifest SHA-256",
+      "result": "PASS",
+      "files": 145
+    },
+    {
+      "name": "All PowerShell syntax trees and Python 3.11 syntax compatibility",
+      "result": "PASS",
+      "note": "PowerShell parsing is not native Windows execution."
+    },
+    {
+      "name": "138 extracted server and feature tests",
+      "result": "PASS"
+    },
+    {
+      "name": "downloaded multi-user administration and itemized settlement UI",
+      "result": "PASS"
+    },
+    {
+      "name": "downloaded HTTPS redirect and close/reopen UI",
+      "result": "PASS"
+    },
+    {
+      "name": "downloaded package bootstrap, duplicate launch, business save and source DB preservation",
+      "result": "PASS"
+    },
+    {
+      "name": "downloaded package LAN TLS, auth, duplicate launch, trust rejection and restart",
+      "result": "PASS"
+    },
+    {
+      "name": "actual Chromium business UI acceptance",
+      "result": "PASS"
+    },
+    {
+      "name": "actual V4.0.4 to V4.1.0 upgrade preserving business data/password/CA",
+      "result": "PASS"
+    },
+    {
+      "name": "Windows live acceptance tool",
+      "result": "NOT_RUN",
+      "note": "Requires actual user Windows machine and running V4.1.0 LAN server; included in package."
+    }
+  ],
+  "limitations": [
+    "Executed on Linux/Python 3.12 and Chromium; native Windows 10/11, Python 3.14, DPAPI/CSP/ACL/UAC/Windows trust/Defender/Edge and customer LAN/VPN were not executed here.",
+    "Use VERIFY_WINDOWS.bat on the server and LAN_CLIENT/CHECK_CONNECTION.bat on each actual client.",
+    "Migration verified with disposable business fixtures, not the customer production database."
+  ],
+  "result": "PASS_WITH_PLATFORM_LIMITATIONS"
+}
