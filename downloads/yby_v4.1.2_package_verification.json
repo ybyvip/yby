@@ -1,0 +1,60 @@
+{
+  "version": "4.1.2",
+  "verification_date_kst": "2026-10-17",
+  "archive_sha256": "c81c6266519841a4b0656ed169097b25fad44042ce3c7200d51600e338b1728c",
+  "archive_bytes": 713539,
+  "manifest_files": 152,
+  "checks": [
+    {
+      "name": "ZIP CRC, file manifest SHA-256, no customer DB/keys/certs/logs",
+      "result": "PASS"
+    },
+    {
+      "name": "Python 3.11 syntax and PowerShell grammar parse",
+      "result": "PASS"
+    },
+    {
+      "name": "158 server/API/authorization/settlement regressions",
+      "result": "PASS"
+    },
+    {
+      "name": "Shared responsive editor, workflow, shading, dates and print",
+      "result": "PASS"
+    },
+    {
+      "name": "Existing live administration, password reauthentication and itemized exports",
+      "result": "PASS"
+    },
+    {
+      "name": "Existing revision/rejection flow and notice attachment retry/download",
+      "result": "PASS"
+    },
+    {
+      "name": "Actual V4.1.1 to V4.1.2 upgrade with company state and credentials preserved",
+      "result": "PASS"
+    },
+    {
+      "name": "Read-only source relocation, duplicate launch and business save",
+      "result": "PASS"
+    },
+    {
+      "name": "LAN TLS/trust failure/restart/password persistence",
+      "result": "PASS"
+    },
+    {
+      "name": "Trusted real Chromium HTTPS redirect/login/close/reopen",
+      "result": "PASS"
+    },
+    {
+      "name": "Business UI, backup download, mobile and keyboard",
+      "result": "PASS"
+    }
+  ],
+  "post_verification_change": "Only README_START_KO.txt wording corrected to show current V4.1.2. All executable code, UI and tests match the extracted acceptance-tested bytes.",
+  "result": "PASS_WITH_PLATFORM_LIMITATIONS",
+  "limitations": [
+    "Executed on Linux/Python 3.12 and Chromium. Native Windows/Edge/DPAPI/NTFS/UAC and customer LAN/VPN were not executed.",
+    "Use VERIFY_WINDOWS.bat on the real server and CHECK_CONNECTION.bat on actual clients.",
+    "Upgrade used disposable business fixtures, not the customer production DB."
+  ]
+}
