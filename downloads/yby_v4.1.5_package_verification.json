@@ -1,0 +1,53 @@
+{
+  "version": "4.1.5",
+  "verification_date_kst": "2026-10-17",
+  "archive_bytes": 1387920,
+  "archive_sha256": "2324e1e272db1caf265c0a3f338e054cd8d75966c2f4dd1b5bd349cceb96b092",
+  "manifest_files": 162,
+  "checks": [
+    {
+      "name": "164 server/API/encoding regressions on extracted package",
+      "result": "PASS"
+    },
+    {
+      "name": "Chromium scenic login layout, bundled image access/security, managed login/logout x3",
+      "result": "PASS"
+    },
+    {
+      "name": "Existing typed account, authentication errors, mandatory password change and lifecycle",
+      "result": "PASS"
+    },
+    {
+      "name": "Trusted real Chromium HTTPS login/logout/reopen; HTTP redirects",
+      "result": "PASS"
+    },
+    {
+      "name": "V4.1.4 to V4.1.5 preserved data/password/CA upgrade; new image via HTTPS",
+      "result": "PASS"
+    },
+    {
+      "name": "Public client bundle exact window host bytes and UTF-8 BOM; no private keys/business data",
+      "result": "PASS"
+    },
+    {
+      "name": "PowerShell 7.4.6 ParseFile 5 scripts; C# native host compilation; title mode execution",
+      "result": "PASS"
+    },
+    {
+      "name": "Final ZIP CRC/MANIFEST SHA-256/Python 3.11 grammar/no customer DB/keys/certs/logs",
+      "result": "PASS"
+    },
+    {
+      "name": "Actual Windows HWND sizing/DPI/Start Menu/Edge/PowerShell 5.1/company policy",
+      "result": "NOT_RUN"
+    }
+  ],
+  "windows_startup_registration_added": false,
+  "result": "PASS_WITH_PLATFORM_LIMITATIONS",
+  "limitations": [
+    "Linux validation does not measure actual Windows window sizes. Run VERIFY_LOGIN_WINDOW_WINDOWS.bat on Windows, then real YBY login/maximize/logout acceptance.",
+    "Actual Windows 5.1 parser preflight executes before installation on user PC; development parser was PowerShell 7.4.6.",
+    "Preservation used disposable fixtures, not production customer data.",
+    "After extracted tests, only native host window-close race guard and report packaging changed; native host re-parsed/recompiled successfully."
+  ]
+}
