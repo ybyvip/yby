@@ -1,0 +1,60 @@
+{
+  "version": "4.1.4",
+  "verification_date_kst": "2026-10-17",
+  "archive_bytes": 725831,
+  "archive_sha256": "a5380314e46be0f57dd219791d8075f28e0d8367e4f56d686c3b34ff9c3d55b5",
+  "windows_startup_registration_added": false,
+  "start_menu_registration": "Implemented for current user; actual Windows registration NOT_RUN here",
+  "checks": [
+    {
+      "name": "164 server/API/encoding regressions",
+      "result": "PASS"
+    },
+    {
+      "name": "Extracted manual dedicated login/auth lifecycle/responsive UI",
+      "result": "PASS"
+    },
+    {
+      "name": "Existing administration, live sessions and itemized exports",
+      "result": "PASS"
+    },
+    {
+      "name": "Existing responsive settlement/revision/cancellation/date layout",
+      "result": "PASS"
+    },
+    {
+      "name": "Notice upload/retry/download and revision approval workflow",
+      "result": "PASS"
+    },
+    {
+      "name": "Quoted/Korean account and broader login/business UI",
+      "result": "PASS"
+    },
+    {
+      "name": "Extracted bootstrap, duplicate launch and data preservation",
+      "result": "PASS"
+    },
+    {
+      "name": "Actual V4.1.3 to V4.1.4 preserved company state/password/CA upgrade",
+      "result": "PASS"
+    },
+    {
+      "name": "Trusted real Chromium TLS/login/logout/reopen",
+      "result": "PASS"
+    },
+    {
+      "name": "Final ZIP CRC/MANIFEST SHA-256; no customer DB/keys/certs/logs; all PowerShell BOM/grammar; Python 3.11 syntax",
+      "result": "PASS"
+    },
+    {
+      "name": "Actual Windows Start menu/Edge window sizing/COM/message boxes/DPAPI/NTFS/company network",
+      "result": "NOT_RUN"
+    }
+  ],
+  "result": "PASS_WITH_PLATFORM_LIMITATIONS",
+  "limitations": [
+    "Executed on Linux/Python 3.12 and Chromium. Desktop resize tests record API requests; native Windows geometry and Start menu creation require actual-PC acceptance.",
+    "Use the packaged PowerShell preflight, VERIFY_WINDOWS.bat, actual Start menu launch and client CHECK_CONNECTION.bat.",
+    "Preservation used disposable company fixtures, not the customer production database."
+  ]
+}
