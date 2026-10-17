@@ -1,0 +1,45 @@
+{
+  "version": "4.1.3",
+  "verification_date_kst": "2026-10-17",
+  "archive_sha256": "6b018f0e745c8f36d8e63832bd983da54f5bd84ef33c83f1985052ad75347a7b",
+  "archive_bytes": 718767,
+  "checks": [
+    {
+      "name": "164 server and encoding regressions",
+      "result": "PASS"
+    },
+    {
+      "name": "Final extracted encoding tests",
+      "result": "PASS"
+    },
+    {
+      "name": "Final extracted bootstrap, login and data preservation",
+      "result": "PASS"
+    },
+    {
+      "name": "Actual V4.1.2 to V4.1.3 upgrade preserving company state and credentials",
+      "result": "PASS"
+    },
+    {
+      "name": "Chromium trusted TLS login, redirect, logout and reopen",
+      "result": "PASS"
+    },
+    {
+      "name": "Final ZIP CRC and every manifest SHA-256; no customer DB/keys/certs",
+      "result": "PASS"
+    },
+    {
+      "name": "Every distributed PowerShell file UTF-8 BOM and syntax tree; exported client script bytes preserved",
+      "result": "PASS"
+    },
+    {
+      "name": "Actual Windows PowerShell 5.1/Edge/DPAPI/NTFS and customer LAN/VPN execution",
+      "result": "NOT_RUN"
+    }
+  ],
+  "limitations": [
+    "Executed on Linux/Python 3.12 and Chromium. Native Windows PowerShell preflight was unit-tested with simulated process results; it will run on the actual Windows PC before installation.",
+    "Tree-sitter parsing does not reproduce the Windows PowerShell 5.1 ANSI decoding choice. BOM checks and native preflight address that gap."
+  ],
+  "result": "PASS_WITH_PLATFORM_LIMITATIONS"
+}
