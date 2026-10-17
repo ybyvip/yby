@@ -1,0 +1,60 @@
+{
+  "version": "4.1.6",
+  "verification_date_kst": "2026-10-17",
+  "archive_bytes": 4289911,
+  "archive_sha256": "33a271b9dda8fc2005e94bca7659731ced8d7bf50e76abfb7494ab5e93e8fe02",
+  "manifest_files": 174,
+  "checks": [
+    {
+      "name": "174 automatic API/security/business/encoding/weather regressions",
+      "result": "PASS"
+    },
+    {
+      "name": "Compact six automatic backgrounds and original manual scene, responsive widths, actual CSS animation, pause preferences and auth lifecycle",
+      "result": "PASS"
+    },
+    {
+      "name": "Cold-start weather retry, stale/offline/image failure fallback, preserved typed credentials",
+      "result": "PASS"
+    },
+    {
+      "name": "Legacy authentication and mandatory password change browser regressions",
+      "result": "PASS"
+    },
+    {
+      "name": "Trusted Chromium HTTPS, HTTP redirects and secure cookies",
+      "result": "PASS"
+    },
+    {
+      "name": "Actual V4.1.5 -> V4.1.6 upgrade preserving state, passwords, attachments and CA",
+      "result": "PASS"
+    },
+    {
+      "name": "V4.1.5 native host and launcher byte identity, all PowerShell BOM",
+      "result": "PASS"
+    },
+    {
+      "name": "Final ZIP CRC, MANIFEST hashes, Python3.11 grammar, no production data/keys/logs",
+      "result": "PASS"
+    }
+  ],
+  "live_weather": {
+    "result": "BLOCKED",
+    "host": "api.met.no",
+    "observed_error": "HTTPS CONNECT 403 Forbidden by development egress policy",
+    "fixture_paths": "PASS",
+    "offline_login_and_time_backdrop": "PASS"
+  },
+  "actual_windows": {
+    "result": "NOT_RUN",
+    "reason": "Linux execution environment; native window manager bytes unchanged from V4.1.5"
+  },
+  "windows_startup_registration_added": false,
+  "result": "PASS_WITH_PLATFORM_AND_LIVE_WEATHER_LIMITATIONS",
+  "limitations": [
+    "Real Cheongju forecast response not received here; verify company server HTTPS access to api.met.no. No TLS bypass.",
+    "Actual Windows HWND/DPI/Start menu/Edge/company network untested here.",
+    "Preservation used disposable fixtures, not customer production data.",
+    "After extracted tests only docs and a verified legacy browser locator update were packaged; production source unchanged."
+  ]
+}
