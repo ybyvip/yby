@@ -1,0 +1,20 @@
+{
+  "version": "4.1.9",
+  "bytes": 4341300,
+  "sha256": "6e828e5361eff82bd75c236fcb9547be5662e6f79d65186c60ef5b849dc84fff",
+  "archive_files": 190,
+  "python_tests": 196,
+  "ledger_tests": 12,
+  "browser_intake": "PASS",
+  "browser_settlement": "PASS",
+  "browser_ledger": "PASS",
+  "v418_upgrade_and_schema6": "PASS",
+  "bootstrap": "PASS",
+  "source_documents_in_package": 0,
+  "zip_crc": "PASS",
+  "manifest_sha256": "PASS",
+  "extracted_bootstrap": "PASS",
+  "powershell_unchanged": "PASS",
+  "live_oracle": "NOT_IMPLEMENTED",
+  "native_windows": "NOT_RUN"
+}
