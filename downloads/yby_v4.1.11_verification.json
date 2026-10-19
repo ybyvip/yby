@@ -1,0 +1,37 @@
+{
+  "version": "4.1.11",
+  "date": "2026-10-19",
+  "timezone": "Asia/Seoul",
+  "pythonTests": 215,
+  "nodeTests": 12,
+  "totalTests": 227,
+  "schema": 6,
+  "browser": [
+    "compact UI at 1920/1440/1024/768/390/320 widths; empty inbox <190px; desktop six input fields one row",
+    "source select/clear/issue/return; no duplicate source panels",
+    "actual highest admin own report submit -> self review audit -> own final approve; branch self review -> admin final; settlement remains pending",
+    "issue immediately complete at return; pending settlement shown on return row; same XLSX labels",
+    "sidebar/detached direct blur, actual range keyboard input 20->100 updates filter; no blur overlay; controls/business view sharp; drafts/messages/layout preserved",
+    "existing password lock rejects wrong password; popup error survives periodic refresh",
+    "V4.1.10/19 source/10s polling, V4.1.2 revision/receipts/approval/print, V4.1.8 ledger/summary/Excel/PDF/branch regressions"
+  ],
+  "upgrade": "actual V4.1.10 -> V4.1.11 install/start/login; DB byte-identical before launch; existing records, reports, inbox, attachments, CA/key fixture bytes and LAN settings retained",
+  "bootstrap": "read-only Korean-path source relocation, duplicate same PID, startup/login/save, reinstall preserves data",
+  "notRun": [
+    "Native company Windows/Edge/WebView2, company certificate/firewall policy",
+    "Real Oracle connection, collection, external attachments"
+  ],
+  "evidence": {
+    "v4111-unittest-final.log": "779465500747430d6b414fcc1b951cb5a80ea8ed714f7dc68d8b0db411a7145f",
+    "v4111-ledger-tests.log": "3a54d0840505cb304e43c6027d60d5c3f6d499d9f7374b2e29836e0d329a98a0",
+    "v4111-browser-final.log": "ae93763e90ab4763b3f7519ede5c4ff4e957da49c3c92f7642214f200cacdc44",
+    "v4111-chat-browser.log": "b0c78cdfc6760bc3b6b6b4f026919b94ffe1acaf362497d7f534ff96e94fc724",
+    "v4111-browser4110.log": "7b75c7b5cbfdcd87310134f36bfcc8846fc6f2d1860a1e4c02a4573e1af8cafe",
+    "v4111-browser419.log": "715b55cbb0068394a6d4197895873749acca4fa4ff2e170d6d23a673646a376b",
+    "v4111-browser412.log": "71f22964d99e45e89caa971fa5bf8c08c749a22321f15e02ebaa78a0abf53dee",
+    "v4111-browser418.log": "74f0f45d41127cdb38978d6312fae7ef953252b29dd372dcf9b37495edd6122c",
+    "v4111-bootstrap-final.log": "c7623b5199cffaa703a006a51a0ccaff110d131a391ad694ebb32a06d52594d1",
+    "v4111-upgrade-final.log": "e4fab9beab1ab129f8afca7e04e779067d9eb1f02b2336329dc653467217aff6",
+    "v4111-browser-v4.log": "e3475b884c47c9c90431cd3e8f90d8dc796fc6e11937605980048c35a8b460c2"
+  }
+}
