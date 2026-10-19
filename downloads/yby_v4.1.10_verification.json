@@ -1,0 +1,29 @@
+{
+  "python": "206 tests passed",
+  "node": "12 tests passed",
+  "browser_new": "actual 10s application/settlement polling without click, scoped filters, stale-source rejection, explicit issue/return, report draft and separate submission, logout cleanup, responsive widths, no JS errors",
+  "browser_regression": [
+    "V4.1.9 intake/source workflow",
+    "V4.1.2 settlement/revision/receipt/approval/print",
+    "V4.1.8 ledger/summary/Excel/PDF/permissions"
+  ],
+  "upgrade": "V4.1.9 -> V4.1.10 existing accounts, DB/business data, receipts, inbox docs, CA/key fixtures and LAN settings retained; byte-identical DB before launch",
+  "bootstrap": "read-only Korean-path package to writable runtime; startup/login/business save; duplicate launch same PID; repeated install retains data",
+  "not_run": [
+    "Native company Windows/Edge/WebView2",
+    "Actual Oracle database connection, polling and attachments"
+  ],
+  "oracle": "No driver/SQL/credentials/source sync. Only normalized YBY inbox polling every 10s while visible. No external writeback.",
+  "schema": 6,
+  "runtime": "Python standard library only; dev tests use Node/Chromium/Playwright",
+  "evidence": {
+    "v4110-unittest-final.log": "f0c93e3372b62efcbb57bed17c8ef7cd8e178450cd00de88141bc76d86f53a44",
+    "v4110-browser-final.log": "7b75c7b5cbfdcd87310134f36bfcc8846fc6f2d1860a1e4c02a4573e1af8cafe",
+    "v4110-browser419.log": "715b55cbb0068394a6d4197895873749acca4fa4ff2e170d6d23a673646a376b",
+    "v4110-browser412.log": "71f22964d99e45e89caa971fa5bf8c08c749a22321f15e02ebaa78a0abf53dee",
+    "v4110-browser418.log": "74f0f45d41127cdb38978d6312fae7ef953252b29dd372dcf9b37495edd6122c",
+    "v4110-bootstrap.log": "f5bd01ce066e710e30b369d0fa621d9182abd372c91eaec005001d14089fb308",
+    "v4110-upgrade.log": "e79a6452dde201ffe5207f9ce3d16a8564b1523277de5880d4f1fb60629db4fe",
+    "v4110-ledger-tests.log": "3a975e2f021b44f361ab4d6f7125cd8acb76be80e73ee9c3d71ac03a906cd86f"
+  }
+}
