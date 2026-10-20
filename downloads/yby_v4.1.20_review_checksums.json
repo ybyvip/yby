@@ -1,0 +1,52 @@
+{
+  "verification": {
+    "date": "2026-10-20",
+    "timezone": "Asia/Seoul",
+    "packageCommit": "b3220d0eb3038e6ff3454d552fc11ebe38b16e2c",
+    "packageSha256": "5217558213f49dc9888fae229fe6512b8b90f8ea4f5073f3133165fb527c9c2e",
+    "packageBytes": 4562841,
+    "packageEntries": 248,
+    "manifestHashesVerified": 247,
+    "newlyRun": {
+      "pythonPass": 332,
+      "pythonSeconds": 152.526,
+      "nodePass": 32,
+      "browserResultGroups": 4,
+      "load": {
+        "records": 5000,
+        "requests": 60,
+        "concurrent_clients": 10,
+        "successful": 60,
+        "p50_ms": 312.79,
+        "p95_ms": 1259.33,
+        "max_ms": 1617.99,
+        "max_body_bytes": 1253699,
+        "unchanged_max_body_bytes": 116,
+        "limitations": "Local temporary data and short run; no Windows/real-network/long-soak capacity claim"
+      }
+    },
+    "pdfPages": 21,
+    "nativeCompanyWindowsTested": false,
+    "actualOracleTested": false,
+    "applicationModified": false,
+    "scope": "Technical review of distributed code and synthetic tests; not third-party certification or production penetration test"
+  },
+  "files": {
+    "yby_v4.1.20_detailed_review_KO.pdf": {
+      "bytes": 708115,
+      "sha256": "2a291cc002574d5dd2d28957c54aebd2bcc68231f1b27d4daf7502364d39ef09"
+    },
+    "yby_v4.1.20_detailed_review_KO.docx": {
+      "bytes": 60149,
+      "sha256": "22aaa08b63ab83cb675175455b365e952753f23b9eac01f2c7c4bfd3d6a03c81"
+    },
+    "yby_v4.1.20_detailed_review_KO.md": {
+      "bytes": 51055,
+      "sha256": "25c19c125b5dfa6fe1a0e511e1c5da6f56a076c3fac8e371d817b82a8dfcc0e6"
+    },
+    "yby_v4.1.20_review_bundle_KO.zip": {
+      "bytes": 468148,
+      "sha256": "0f6aa7da9f7f95e7fc99f4279abeb56433868bfe57cfcf3348d23c4e310f2dc3"
+    }
+  }
+}
