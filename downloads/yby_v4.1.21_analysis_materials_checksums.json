@@ -1,0 +1,86 @@
+{
+  "verification": {
+    "date": "2026-10-20",
+    "timezone": "Asia/Seoul",
+    "packageCommit": "ae845669131383aeca37e5890d4068e36ba512ee",
+    "downloadHttpStatus": 200,
+    "bytes": 4318920,
+    "sha256": "afad82d2a1ff52ec06b8d97a60765f8c7516be021c751f7980e5b8489df2b3eb",
+    "zipEntries": 280,
+    "manifestFilesVerified": 279,
+    "python": "3.12.14",
+    "sqlite": "3.53.1",
+    "purpose": "HQ and branch physical-card custody supplement; external system remains authoritative for expenses and approvals",
+    "applicationModified": false,
+    "companyDatabaseAccessed": false,
+    "newlyRun": {
+      "pythonPass": 365,
+      "pythonSeconds": 204.204,
+      "nodePass": 32,
+      "uniqueAutomatedTests": 397,
+      "stabilityBrowser": true,
+      "dashboardAndFiveStatisticsViewsAndActualXlsx": true,
+      "syntheticOperatingObservations": 8,
+      "syntheticStatisticsObservations": 7
+    },
+    "documents": [
+      {
+        "key": "auxiliary_card_review",
+        "stem": "yby_v4.1.21_card_management_analysis_KO",
+        "pages": 14,
+        "sections": 14
+      },
+      {
+        "key": "company_readiness_review",
+        "stem": "yby_v4.1.21_company_readiness_analysis_KO",
+        "pages": 15,
+        "sections": 15
+      }
+    ],
+    "nativeCompanyWindowsTested": false,
+    "actualOracleConnected": false,
+    "existingDeploymentRecordsNotRerun": [
+      "upgrade and old-data preservation",
+      "read-only Korean-path bootstrap",
+      "LAN HTTPS and certificates",
+      "older browser regression scenarios",
+      "short local load"
+    ],
+    "independentCertification": false,
+    "sourceUnmodifiedAfterReview": true
+  },
+  "files": {
+    "yby_v4.1.21_card_management_analysis_KO.pdf": {
+      "bytes": 539481,
+      "sha256": "37b32f822c8e4886f1f81698357c365c4b31c5a7820321358f9ee0f59de78874"
+    },
+    "yby_v4.1.21_card_management_analysis_KO.docx": {
+      "bytes": 48718,
+      "sha256": "c7ce133b590999645081779fe21f81f5a1336d093d30ecfe9e4f15abb03af698"
+    },
+    "yby_v4.1.21_card_management_analysis_KO.md": {
+      "bytes": 23251,
+      "sha256": "f53c9dc59094c6f0944277d8dc87bf5429ce253e63372ad25ad98b3690411b12"
+    },
+    "yby_v4.1.21_company_readiness_analysis_KO.pdf": {
+      "bytes": 538354,
+      "sha256": "4aab67dc005bb78dee6342099358a0205e41c139742c6914d9cb5e9242c2c4ab"
+    },
+    "yby_v4.1.21_company_readiness_analysis_KO.docx": {
+      "bytes": 49530,
+      "sha256": "a0de06c3bfad64de2048fad1ad9132d3e34730953b1d59b9640e657cfe0cd829"
+    },
+    "yby_v4.1.21_company_readiness_analysis_KO.md": {
+      "bytes": 23985,
+      "sha256": "5f2731522aeb1072a90b00ec4ee50d8f09bbf39bc9a6ffbd4c272f30f9d76e4b"
+    },
+    "yby_v4.1.21_analysis_materials_KO.zip": {
+      "bytes": 739162,
+      "sha256": "cf53c17b900120478b21c0c5b88c2bf5704c5ce3cf58206c54e528921572f25c"
+    },
+    "yby_v4.1.21_analysis_materials_README_KO.md": {
+      "bytes": 2053,
+      "sha256": "70e7058d928e8af8ed1f8c4c799710bec163adcda2ff2c572b55794511185dd2"
+    }
+  }
+}
