@@ -1,0 +1,23 @@
+{
+  "version": "4.1.19",
+  "date": "2026-10-20",
+  "timezone": "Asia/Seoul",
+  "schema": 8,
+  "pythonTests": 332,
+  "nodeTests": 28,
+  "uniqueAutomatedTests": 360,
+  "nativeCompanyWindowsTested": false,
+  "actualOracleTested": false,
+  "evidence": {
+    "v4119-unittest-final.log": "730f117345007502dcdaeb8c0bb05ab8b83375941435a47e94543e41e15a32bf",
+    "v4119-node.log": "b8d76c9ef634e3e07e48c9cd8713887f021d18271bc8abc46a69a0ce2c6744fd",
+    "v4119-browser-final.log": "78e81c6ba796652735392fa8d5dca417276b9324a67716249bc1078c2b885947",
+    "v4119-browser_v4.log": "e3475b884c47c9c90431cd3e8f90d8dc796fc6e11937605980048c35a8b460c2",
+    "v4119-browser_v4116.log": "8766edc8c64a8504eebfbb772c92d402ee12dc765afcf6ca78626725cf8c286c",
+    "v4119-browser_v4118-final.log": "0a2943365bd6a7795740768e02e24821dcb36d88aa10c6751e9fd45ec1055dff",
+    "v4119-new-final.log": "d4097cce80e1321ee273229882fc79bed5f60eb62d70db7a7736cd8948ab6063",
+    "v4119-attachment.log": "2c71f6cc35de0c605bf05d39169d59c63a51eb54e1e9dd5aca30a2165e512894",
+    "v4119-bootstrap.log": "1c498fab40fe6517ed2d6f24b3ab44b658333d39de5f8862c5728a709fa6779a",
+    "v4119-upgrade.log": "f7bc03bdceb239168734612fc83da2193f2b7f9f5f6146f1f5f3e9543c4ae7ae"
+  }
+}
