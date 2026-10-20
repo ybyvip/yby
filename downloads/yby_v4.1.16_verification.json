@@ -1,0 +1,21 @@
+{
+  "version": "4.1.16",
+  "date": "2026-10-20",
+  "timezone": "Asia/Seoul",
+  "schema": 8,
+  "pythonTests": 294,
+  "nodeTests": 24,
+  "uniqueAutomatedTests": 318,
+  "nativeCompanyWindowsTested": false,
+  "actualOracleTested": false,
+  "evidence": {
+    "v4116-unittest.log": "49bc4c03ad9c6fe93e91ece31a5f939f6c67ae37b5c1e90cd51912aeb432f082",
+    "v4116-node.log": "bd62e1a2ead7143be139a541a15f3c1e59a6c255f841914608d1ff8d90a33f26",
+    "v4116-browser-final.log": "8766edc8c64a8504eebfbb772c92d402ee12dc765afcf6ca78626725cf8c286c",
+    "v4116-browser_v4.log": "e3475b884c47c9c90431cd3e8f90d8dc796fc6e11937605980048c35a8b460c2",
+    "v4116-browser_v4115.log": "b09676d490d8735ebf0955bb3c2fdfe12b78e39642ea8d31689d53f616ee1058",
+    "v4116-browser_v4113.log": "2a632344f3a6ce32eff499a90a8e5c6bf6927b57a902abc2e38b839ce15fe05d",
+    "v4116-bootstrap.log": "ec7713806f9ea98286e0ca19cdd310e6c83c740cc7185074c83a0e35e35d5ae9",
+    "v4116-upgrade.log": "7385ff7adfd753c67c0db3b4de062dde5117c1f61a54e38a2e20124dac2f7ceb"
+  }
+}
