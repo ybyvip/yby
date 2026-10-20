@@ -3,15 +3,15 @@
   "date": "2026-10-20",
   "timezone": "Asia/Seoul",
   "schema": 9,
-  "pythonTests": 363,
+  "pythonTests": 365,
   "nodeTests": 32,
-  "uniqueAutomatedTests": 395,
+  "uniqueAutomatedTests": 397,
   "nativeCompanyWindowsTested": false,
   "actualOracleConnected": false,
   "hostedWindowsTested": false,
   "validationSourceMatchesDistribution": true,
   "evidence": {
-    "v4121-distribution-tests.log": "9bdb458c37e13a3d7391d1076ad1f9fffffeab77dbc5b7b683ee98356ae82e34",
+    "v4121-release-security-tests.log": "82fc281ead77324d590d5ca832bae1b2d981892b7fcdcaa942b818a77ee8087d",
     "v4121-node.log": "6955f0aa2fcab62b0b2f4fbc79041dd96a38da13f6ff424a7fc63b36e214b5ed",
     "v4121-extracted-browser.log": "0e05ed2a83256b2683c0a80906053bba75ec6ae3861ff9303de81d4841ecce60",
     "v4121-browser_v4120.log": "c1f3808b27363aa347cb097274b90067db8214add0d68fc5632ea6e810293702",
@@ -28,8 +28,8 @@
     "v4121-bootstrap.log": "066cdbb850f08e010ac59843f45b2a949f5edc5c6192cbbe3dc0c9dbb9667410",
     "v4121-lan-verified.log": "5f35d34e357c39ee7db8ec859e4ce10fc4a4fcf51da45a664f330d68a1140ed1",
     "v4121-load.log": "131838b116614bf35701aa13b39fb480e8a9404d9cd5e84890e282d8ec176c44",
-    "v4121-final-zip-bootstrap.log": "449883d4c2241b17b75911365d95a4f550979d67059bc4385d284b2bd48fd94b",
-    "v4121-final-zip-upgrade.log": "68dd8a78c365cee2439e5853248b8c06790d1960fa1364da71bb9e324b2a2ce4"
+    "v4121-final-zip-bootstrap.log": "69b8b1fb3f41f76d2ce257c2ca9ce77d48f8f52e4b7bc368909c9c1839d33e96",
+    "v4121-final-zip-upgrade.log": "881a058b052931e7fb2737c109f9a2ae6f1324ee4f438970da3b9a3550267e4b"
   },
   "load": {
     "records": 5000,
@@ -43,9 +43,10 @@
     "unchanged_max_body_bytes": 116,
     "limitations": "Local temporary data and short run; no Windows/real-network/long-soak capacity claim"
   },
-  "finalArchiveSha256": "d8cdba3c2c4e428c13fc84931485808ed568ca5284f34c59b23287338d561157",
+  "finalArchiveSha256": "afad82d2a1ff52ec06b8d97a60765f8c7516be021c751f7980e5b8489df2b3eb",
   "manifestFiles": 279,
   "finalZipEntries": 280,
   "finalExtractedBootstrapVerified": true,
-  "finalExtractedUpgradeVerified": true
+  "finalExtractedUpgradeVerified": true,
+  "finalExtractedBrowserVerified": true
 }
