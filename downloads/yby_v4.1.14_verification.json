@@ -1,0 +1,24 @@
+{
+  "version": "4.1.14",
+  "date": "2026-10-20",
+  "timezone": "Asia/Seoul",
+  "schema": 6,
+  "pythonTests": 256,
+  "repeatedStateTests": 15,
+  "nodeTests": 12,
+  "uniqueAutomatedTests": 268,
+  "nativeCompanyWindowsTested": false,
+  "actualOracleTested": false,
+  "evidence": {
+    "v4114-unittest.log": "8db5ab544f59bb1acf01abf8baed3b3390bf00462d2fe17219e75199eb503670",
+    "v4114-state-final.log": "26ead9ac01721c6b324bac196618fd1c77db4d5559ba9d381bb1a01c31fce242",
+    "v4114-ledger-tests.log": "54b626c01a5f637456fab8a05e6ff5e088a7d7ec6aae03326ce2fd45ccebc348",
+    "v4114-browser-final.log": "f0bb3e0ddc4345c7039f4af4cd1779fcc199e3a3b17aad58739b8172cab8c95a",
+    "v4114-browser-v4.log": "e3475b884c47c9c90431cd3e8f90d8dc796fc6e11937605980048c35a8b460c2",
+    "v4114-browser4113.log": "0fa6041485dc883f4a75a60ab1dbe84079c8b1954d3d6c45b6581a11dc208d7b",
+    "v4114-browser4111.log": "ae93763e90ab4763b3f7519ede5c4ff4e957da49c3c92f7642214f200cacdc44",
+    "v4114-chat-browser.log": "b0c78cdfc6760bc3b6b6b4f026919b94ffe1acaf362497d7f534ff96e94fc724",
+    "v4114-bootstrap.log": "d81c9986a19ce940ee5b141ea67380f3e3d176a788a28a3c99cc3623173deb26",
+    "v4114-upgrade.log": "43fc6a1bc3c2df4d3d861494c4f8af807ac7e237d1813a5dd1b63a0a553b0255"
+  }
+}
